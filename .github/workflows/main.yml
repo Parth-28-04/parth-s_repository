@@ -1,0 +1,21 @@
+- name: ALM Octane GitHub Actions Integration
+  # You may pin to the exact commit or the version.
+  # uses: MicroFocus/alm-octane-github-actions-integration@a0f4a453e8a1ea6c49571341daab6dfa3dc91298
+  uses: MicroFocus/alm-octane-github-actions-integration@v1.0
+  with:
+    # Url of ALM Octane instance
+    octaneUrl: 
+    # Shared Space ID
+    octaneSharedSpace: 
+    # Workspace ID
+    octaneWorkspace: 
+    # ALM Octane API Access Client ID
+    octaneClientId: 
+    # ALM Octane API Access Client Secret
+    octaneClientSecret: 
+    # GitHub PAT
+    gitHubToken: 
+    # URL of the organization/repository in GitHub
+    serverBaseUrl: 
+    # Pattern to search unit test result report files in artifacts
+    unitTestResultsGlobPattern: # optional
